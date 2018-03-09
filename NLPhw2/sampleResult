@@ -1,0 +1,49 @@
+brown
+brown  read. train: 39802 dev: 8437 test: 8533
+vocab: 570850
+train: 19.863098434899786
+dev  : 19.882060002344033
+test : 20.290655218791784
+sample:  are Air on on during 1721 screw been gambling us to different requests graduates seems the interlocking as depends superior in everywhere interposed bank to himself of your the sales you dozens five it filling of
+sample:  the camera more fine to was
+sample:  are might mind Lear
+-----------------------
+reuters
+reuters  read. train: 38183 dev: 8083 test: 8199
+vocab: 619956
+train: 8.173352733047121
+dev  : 8.211186124429599
+test : 8.171691316437487
+sample:  mln the lt to than 000 scheme
+sample:  sold by its been counterparty customers pct
+sample:  presently Zoete the Minorities Realty had pct free Houston stock extraordinary to TO
+-----------------------
+gutenberg
+gutenberg  read. train: 68767 dev: 14667 test: 14861
+vocab: 1002370
+train: 11.490531765302723
+dev  : 11.293367445793349
+test : 11.828331631362962
+sample:  times made Oreb be valley thy immortal in kneeled ye
+sample:  she Isolatoes us know honest thy passing dinner rank thine by him idea you
+sample:  again dream arms fifteenth given let 171 bare proper calamity groups some praise discharged Mine me But although companions frosty hath as while and her about come its Mr
+-------------------------------
+x train
+                          brown         reuters       gutenberg 
+          brown 19.863098434899786 8.173352733047121 11.490531765302723 
+        reuters 19.863098434899786 8.173352733047121 11.490531765302723 
+      gutenberg 19.863098434899786 8.173352733047121 11.490531765302723 
+-------------------------------
+x dev
+                          brown         reuters       gutenberg 
+          brown 19.882060002344033 8.211186124429599 11.293367445793349 
+        reuters 19.882060002344033 8.211186124429599 11.293367445793349 
+      gutenberg 19.882060002344033 8.211186124429599 11.293367445793349 
+-------------------------------
+x test
+                          brown         reuters       gutenberg 
+          brown 20.290655218791784 8.171691316437487 11.828331631362962 
+        reuters 20.290655218791784 8.171691316437487 11.828331631362962 
+      gutenberg 20.290655218791784 8.171691316437487 11.828331631362962 
+
+Process finished with exit code 0
